@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23f4d25e.css",
-    "main.js": "/static/js/main.0707ef41.js",
+    "main.js": "/static/js/main.1bf3087a.js",
     "static/js/415.f4356c47.chunk.js": "/static/js/415.f4356c47.chunk.js",
     "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
     "static/media/HeadphoneZone.png": "/static/media/HeadphoneZone.1407c6a97c984ae8d6a9.png",
@@ -14,12 +14,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.23f4d25e.css.map": "/static/css/main.23f4d25e.css.map",
-    "main.0707ef41.js.map": "/static/js/main.0707ef41.js.map",
+    "main.1bf3087a.js.map": "/static/js/main.1bf3087a.js.map",
     "415.f4356c47.chunk.js.map": "/static/js/415.f4356c47.chunk.js.map",
     "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23f4d25e.css",
-    "static/js/main.0707ef41.js"
+    "static/js/main.1bf3087a.js"
   ]
 }
