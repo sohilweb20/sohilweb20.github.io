@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.23f4d25e.css",
-    "main.js": "/static/js/main.1bf3087a.js",
+    "main.css": "/static/css/main.595dee4d.css",
+    "main.js": "/static/js/main.06127b22.js",
     "static/js/415.f4356c47.chunk.js": "/static/js/415.f4356c47.chunk.js",
     "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
+    "static/media/anthropologie.png": "/static/media/anthropologie.b7f24851d0ba257aa3e9.png",
     "static/media/HeadphoneZone.png": "/static/media/HeadphoneZone.1407c6a97c984ae8d6a9.png",
     "static/media/fitness_blunder.png": "/static/media/fitness_blunder.5cce659d6ba5e6f0b4e5.png",
     "static/media/Expedia.png": "/static/media/Expedia.3fd24670c10ee64ed600.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar.png": "/static/media/avatar.d3cfdd42fd7b807ab973.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.3d17d33020bd549ef67b.jpg",
-    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.23f4d25e.css.map": "/static/css/main.23f4d25e.css.map",
-    "main.1bf3087a.js.map": "/static/js/main.1bf3087a.js.map",
+    "main.595dee4d.css.map": "/static/css/main.595dee4d.css.map",
+    "main.06127b22.js.map": "/static/js/main.06127b22.js.map",
     "415.f4356c47.chunk.js.map": "/static/js/415.f4356c47.chunk.js.map",
     "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23f4d25e.css",
-    "static/js/main.1bf3087a.js"
+    "static/css/main.595dee4d.css",
+    "static/js/main.06127b22.js"
   ]
 }
