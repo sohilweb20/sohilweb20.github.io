@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.595dee4d.css",
-    "main.js": "/static/js/main.5eab610b.js",
+    "main.js": "/static/js/main.a8c84134.js",
     "static/js/415.f4356c47.chunk.js": "/static/js/415.f4356c47.chunk.js",
     "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
     "static/media/anthropologie.png": "/static/media/anthropologie.b7f24851d0ba257aa3e9.png",
@@ -15,12 +15,12 @@
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
     "main.595dee4d.css.map": "/static/css/main.595dee4d.css.map",
-    "main.5eab610b.js.map": "/static/js/main.5eab610b.js.map",
+    "main.a8c84134.js.map": "/static/js/main.a8c84134.js.map",
     "415.f4356c47.chunk.js.map": "/static/js/415.f4356c47.chunk.js.map",
     "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.595dee4d.css",
-    "static/js/main.5eab610b.js"
+    "static/js/main.a8c84134.js"
   ]
 }
