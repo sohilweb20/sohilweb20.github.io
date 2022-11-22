@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.595dee4d.css",
-    "main.js": "/static/js/main.a8c84134.js",
+    "main.css": "/static/css/main.ddebf892.css",
+    "main.js": "/static/js/main.15e3f0f3.js",
     "static/js/415.f4356c47.chunk.js": "/static/js/415.f4356c47.chunk.js",
     "static/js/787.f35f70c9.chunk.js": "/static/js/787.f35f70c9.chunk.js",
     "static/media/anthropologie.png": "/static/media/anthropologie.b7f24851d0ba257aa3e9.png",
@@ -10,17 +10,18 @@
     "static/media/Expedia.png": "/static/media/Expedia.3fd24670c10ee64ed600.png",
     "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/avatar.png": "/static/media/avatar.d3cfdd42fd7b807ab973.png",
+    "static/media/imaages.png": "/static/media/imaages.b5c3bb1e9fe649a3e3f6.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.3d17d33020bd549ef67b.jpg",
+    "static/media/formvalidate.png": "/static/media/formvalidate.68888db2692fc5e8dfa9.png",
     "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.595dee4d.css.map": "/static/css/main.595dee4d.css.map",
-    "main.a8c84134.js.map": "/static/js/main.a8c84134.js.map",
+    "main.ddebf892.css.map": "/static/css/main.ddebf892.css.map",
+    "main.15e3f0f3.js.map": "/static/js/main.15e3f0f3.js.map",
     "415.f4356c47.chunk.js.map": "/static/js/415.f4356c47.chunk.js.map",
     "787.f35f70c9.chunk.js.map": "/static/js/787.f35f70c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.595dee4d.css",
-    "static/js/main.a8c84134.js"
+    "static/css/main.ddebf892.css",
+    "static/js/main.15e3f0f3.js"
   ]
 }
