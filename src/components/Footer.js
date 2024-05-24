@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 
 const Footer = () => {
   return (
@@ -42,7 +42,7 @@ const Footer = () => {
           Copyright <script>document.write(new Date().getFullYear())</script>
           . Made by
           <a rel="noreferrer" target="_blank" href="https://Rammaheshwari.com">
-            Sohil Khan
+            Ram Maheshwari
           </a>
         </div>
       </div>

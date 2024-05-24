@@ -6,10 +6,15 @@ const Navbar = () => {
             <div class="header_content">
                 <div class="header_logo-container">
                     <div class="header_logo-img-cont">
+                        <img src="../Rammaheshwari/ram-maheshwari.png" alt="ram maheshwari logo"
+                            class="header_logo-img" />
+                    </div>
+                    <span class="header_logo-sub">RAM MAHESHWARI</span>
+                    {/* <div class="header_logo-img-cont">
                         <img src="https://avatars.githubusercontent.com/u/107618711?v=4" alt="ram maheshwari logo"
                             class="header_logo-img" />
                     </div>
-                    <span class="header_logo-sub">SOHIL KHAN</span>
+                    <span class="header_logo-sub">SOHIL KHAN</span> */}
                 </div>
                 <div class="header_main">
                     <ul class="header_links">
