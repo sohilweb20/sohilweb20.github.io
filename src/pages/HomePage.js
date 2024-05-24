@@ -8,7 +8,7 @@ const HomePage = () => {
             <Navbar />
             <section id="home" class="home-hero">
                 <div class="home-hero_content">
-                    <h1 class="heading-primary">HEY, I'M RAM MAHESHWARI</h1>
+                    <h1 class="heading-primary">HEY, I'M SOHIL KHAN</h1>
                     <div class="home-hero_info">
                         <p class="text-primary">
                             A Frontend focused Web Developer building the
@@ -17,7 +17,7 @@ const HomePage = () => {
                         </p>
                     </div>
                     <div class="home-hero_cta">
-                        <a href="../Rammaheshwari/projects.html" class="btn btn--bg">Projects</a>
+                        <a href="#projects" class="btn btn--bg">Projects</a>
                     </div>
                 </div>
                 <div class="homme-hero_socials">
