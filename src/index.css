@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200..900;1,200..900&display=swap'); */
+
 /*  */
 *,
 ::after,
@@ -241,9 +243,10 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 90rem;
   transform: translate(-50%, -50%);
-  width: 92%;
+  max-width: 90rem;
+  width: 60%;
+
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -264,11 +267,7 @@ li {
   font-weight: 800;
 }
 
-@media screen and (max-width:37.5em) {
-  .heading-primary {
-    font-size: 4.5rem;
-  }
-}
+
 
 .text-primary {
   color: #333;
@@ -295,14 +294,15 @@ li {
 }
 
 .btn {
-  background: #facf0f;
-  color: #333;
+  background: #7843E9;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
   font-weight: 700;
   border-radius: 5px;
   transition: color .3s;
+  border: none;
 
 }
 
@@ -323,7 +323,8 @@ li {
 }
 
 .btn--theme {
-  background: #facf0f;
+  background: #7843E9;
+  color: white;
 }
 
 .sec-pad {
@@ -366,10 +367,12 @@ li {
   display: block;
   font-size: 4rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 3.5rem;
   position: relative;
+  color: #111;
 }
 
 .heading-sec__main--lt {
@@ -388,7 +391,8 @@ li {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #facf0f;
+  background: #7843E9;
+  color: white;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -398,9 +402,9 @@ li {
   display: block;
   text-align: center;
   color: #555;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
-  max-height: 80rem;
+  max-width: 80rem;
   margin: auto;
   line-height: 1.6;
 }
@@ -413,6 +417,15 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 8rem;
+}
+
+.about__content-skills {
+  text-align: left !important;
+}
+
+.about__content-main {
+  text-align: left !important;
+
 }
 
 @media screen and (max-width:56.25%) {
@@ -561,9 +574,9 @@ li {
 }
 
 .contact {
-  background: url("../assets/common-bg.svg");
-  background-size: cover;
+  background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url("../assets/common-bg.svg");
   background-position: center;
+  position: relative;
 }
 
 .contact__form-container {
