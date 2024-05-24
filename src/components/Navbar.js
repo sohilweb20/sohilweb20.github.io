@@ -26,6 +26,7 @@ const Navbar = () => {
                             <a href="#contact" class="header_link">contact</a>
                         </li>
                     </ul>
+                    
                     <div class="header_main-ham-menu-cont">
                         <img src="../Rammaheshwari/ham-menu.svg" alt="ham menu"
                             class="header_main-ham-menu" />

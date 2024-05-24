@@ -6,6 +6,7 @@ const HomePage = () => {
     return (
         <div>
             <Navbar />
+            
             <section id="home" class="home-hero">
                 <div class="home-hero_content">
                     <h1 class="heading-primary">HEY, I'M SOHIL KHAN</h1>
