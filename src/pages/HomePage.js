@@ -1,14 +1,17 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import desklib from "../assets/Desklib.png"
+import ozassignment from "../assets/OzAssignment.png"
+import technofocus from "../assets/Technofocus.png"
+import neokred from "../assets/Neokred.png"
+import Aunest from "../assets/Aunest.png"
+
 
 const HomePage = () => {
     return (
         <div>
-            <Navbar />
             <section id="home" class="home-hero">
                 <div class="home-hero_content">
-                    <h1 class="heading-primary">HEY, I'M RAM MAHESHWARI</h1>
+                    <h1 class="heading-primary">HEY, I'M SOHIL KHAN</h1>
                     <div class="home-hero_info">
                         <p class="text-primary">
                             A Frontend focused Web Developer building the
@@ -17,7 +20,7 @@ const HomePage = () => {
                         </p>
                     </div>
                     <div class="home-hero_cta">
-                        <a href="../Rammaheshwari/projects.html" class="btn btn--bg">Projects</a>
+                        <a href="projects" class="btn btn--bg">Projects</a>
                     </div>
                 </div>
                 <div class="homme-hero_socials">
@@ -81,23 +84,27 @@ const HomePage = () => {
                                     that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
                                 </p>
                             </div>
-                            <a href="../Rammaheshwari/contact.html" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+                            <a href="contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
                         </div>
                         <div class="about__content-skills">
                             <h3 class="about__content-title">My Skills</h3>
                             <div class="skills">
+                                <div class="skills_skill">JavaScript</div>
+                                <div class="skills_skill">React.Js</div>
+                                <div class="skills_skill">Next.Js</div>
+                                <div class="skills_skill">React Native</div>
                                 <div class="skills_skill">HTML</div>
                                 <div class="skills_skill">CSS</div>
-                                <div class="skills_skill">JavaScript</div>
-                                <div class="skills_skill">React</div>
-                                <div class="skills_skill">SASS</div>
-                                <div class="skills_skill">GIT</div>
-                                <div class="skills_skill">Shopify</div>
-                                <div class="skills_skill">WordPress</div>
-                                <div class="skills_skill">Google Ads</div>
-                                <div class="skills_skill">Facebook</div>
-                                <div class="skills_skill">Android</div>
-                                <div class="skills_skill">IOS</div>
+                                <div class="skills_skill">Tailwind css</div>
+                                <div class="skills_skill">Ant design</div>
+                                <div class="skills_skill">Node.Js</div>
+                                <div class="skills_skill">Express.Js</div>
+                                <div class="skills_skill">Postgres SQL</div>
+                                <div class="skills_skill">Mongo DB</div>
+                                <div class="skills_skill">Redux Toolkit</div>
+                                <div class="skills_skill">Mobile Development</div>
+                                <div class="skills_skill">Github</div>
+
                             </div>
                         </div>
                     </div>
@@ -115,58 +122,67 @@ const HomePage = () => {
                     <div class="projects_content">
                         <div class="projects_row">
                             <div class="projects_row-img-cont">
-                                <img src="../Rammaheshwari/dopefolio.jpeg" alt="Software Screenshot"
-                                    class="projects_row-img" loading="lazy" />
+                                <img src={desklib} alt="Desklib Screenshot"
+                                    class="projects_row-img" />
                             </div>
                             <div class="projects_row-content">
-                                <h3 class="projects_row-content-title">Dopefolio</h3>
+                                <h3 class="projects_row-content-title">Desklib</h3>
                                 <p class="projects_row-content-desc">
-                                    Dopefolio is a successful Open-Source project that I created which have been featured on some of the
-                                    biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
+                                    Desklib is an online learning platform offering course-specific study materials. Students can access solutions to assignments, essays, dissertations, case studies, and more, contributed by students and educational partners, to enhance their academic performance.
                                 </p>
-                                <a href="#" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                                <a href="https://desklib.com/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
                             </div>
                         </div>
                         <div class="projects_row">
                             <div class="projects_row-img-cont">
-                                <img src="../Rammaheshwari/wilsonport.jpeg" alt="Software Screenshot"
+                                <img src={ozassignment} alt="Software Screenshot"
                                     class="projects_row-img" loading="lazy" />
                             </div>
                             <div class="projects_row-content">
-                                <h3 class="projects_row-content-title">Wilsonport</h3>
+                                <h3 class="projects_row-content-title">Oz Assignment</h3>
                                 <p class="projects_row-content-desc">
-                                    Wilsonport is a multiservice logistics and transport company and I created
-                                    their website from scratch using the frontend tools I know
+                                    Our services focus on providing high-quality academic content, including Admission Essay Services, Business Editing Services, Academic Proofreading Services, Academic Services, and Professional Editing Services.
                                 </p>
-                                <a href="#" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                                <a href="https://www.ozassignments.com/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
                             </div>
                         </div>
                         <div class="projects_row">
                             <div class="projects_row-img-cont">
-                                <img src="../Rammaheshwari/boreal-coffee-clone.jpeg" alt="Software Screenshot"
+                                <img src={technofocus} alt="Software Screenshot"
                                     class="projects_row-img" loading="lazy" />
                             </div>
                             <div class="projects_row-content">
-                                <h3 class="projects_row-content-title">Boreal Coffee Clone</h3>
+                                <h3 class="projects_row-content-title">Technofocus</h3>
                                 <p class="projects_row-content-desc">
-                                    I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI.
-                                    It was a great experience for me to build the entire frontend
+                                    Technofocus is dedicated to enabling professionals in technical learning. Our experiential training programs help learners gain essential skills in the latest cloud features, enhanced by field experts and certified, seasoned instructors, ensuring a comprehensive and effective learning experience.
                                 </p>
-                                <a href="#" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                                <a href="https://technofocus.ai/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
                             </div>
                         </div>
                         <div class="projects_row">
                             <div class="projects_row-img-cont">
-                                <img src="../Rammaheshwari/crown-template.jpeg" alt="Software Screenshot"
+                                <img src={neokred} alt="Software Screenshot"
                                     class="projects_row-img" loading="lazy" />
                             </div>
                             <div class="projects_row-content">
-                                <h3 class="projects_row-content-title">Crown Template</h3>
+                                <h3 class="projects_row-content-title">Neokred</h3>
                                 <p class="projects_row-content-desc">
-                                    Crown is a web template that I created targetting the restaurant and food industry which anyone can
-                                    use to present their business online
+                                    Neokred believes business experiences should be more than transactions; they should be enriching journeys. These experiences transform transactions into relationships and relationships into memories. Neokred aims to be the cornerstone of insight-driven financial excellence across industries.
                                 </p>
-                                <a href="#" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                                <a href="https://neokred.tech/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                            </div>
+                        </div>
+                        <div class="projects_row">
+                            <div class="projects_row-img-cont">
+                                <img src={Aunest} alt="Software Screenshot"
+                                    class="projects_row-img" loading="lazy" />
+                            </div>
+                            <div class="projects_row-content">
+                                <h3 class="projects_row-content-title">Aunest Mobile App</h3>
+                                <p class="projects_row-content-desc">
+                                    Compare Gold funds and choose the best. Explore top jewelers' collections, find the best gold loan offers, and invest in gold as a hedge. SIP in Gold funds for special gifts. Save gold securely with modern technology.
+                                </p>
+                                <a href="https://aunest.in/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
                             </div>
                         </div>
                     </div>
@@ -205,7 +221,6 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <Footer />
         </div>
     )
 }
