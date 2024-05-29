@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logoImage from "../assets/logoImage.png"
 
 const Navbar = () => {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuOpen = () => {
+        setMenuOpen(true);
+    };
+
+    const handleMenuClose = () => {
+        setMenuOpen(false);
+    };
     return (
         <header class="header">
             <div class="header_content">
@@ -27,28 +37,36 @@ const Navbar = () => {
                             <a href="#contact" class="header_link">contact</a>
                         </li>
                     </ul>
-                    <div class="header_main-ham-menu-cont">
-                        <img src="../Rammaheshwari/ham-menu.svg" alt="ham menu"
-                            class="header_main-ham-menu" />
-                        <img src="../Rammaheshwari/ham-menu-close.svg" alt="ham menu close"
-                            class="header_main-ham-menu-close d-none" />
+                    <div className="header_main-ham-menu-cont">
+                        <img
+                            src="https://www.rammaheshwari.com/assets/svg/ham-menu.svg"
+                            alt="ham menu"
+                            className={`header_main-ham-menu ${menuOpen ? 'd-none' : ''}`}
+                            onClick={handleMenuOpen}
+                        />
+                        <img
+                            src="https://www.rammaheshwari.com/assets/svg/ham-menu-close.svg"
+                            alt="ham menu close"
+                            className={`header_main-ham-menu-close ${menuOpen ? '' : 'd-none'}`}
+                            onClick={handleMenuClose}
+                        />
                     </div>
                 </div>
             </div>
-            <div class="header_sm-menu">
-                <div class="header_sm-menu-content">
-                    <ul class="header_sm-menu-links">
-                        <li class="header_sm-menu-link">
-                            <a href="">home</a>
+            <div className={`${menuOpen ? 'header__sm-menu--active' : 'header__sm-menu'}`}>
+                <div className="header__sm-menu-content">
+                    <ul className="header_sm-menu-links">
+                        <li className="header_sm-menu-link">
+                            <a href="#home">home</a>
                         </li>
-                        <li class="header_sm-menu-link">
-                            <a href="">about</a>
+                        <li className="header_sm-menu-link">
+                            <a href="#about">about</a>
                         </li>
-                        <li class="header_sm-menu-link">
-                            <a href="">projects</a>
+                        <li className="header_sm-menu-link">
+                            <a href="#projects">projects</a>
                         </li>
-                        <li class="header_sm-menu-link">
-                            <a href="">contact</a>
+                        <li className="header_sm-menu-link">
+                            <a href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>
