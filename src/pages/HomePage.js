@@ -14,41 +14,33 @@ const HomePage = () => {
                     <h1 class="heading-primary">HEY, I'M SOHIL KHAN</h1>
                     <div class="home-hero_info">
                         <p class="text-primary">
-                            A Frontend focused Web Developer building the
-                            Frontend of Websites and Web Applications that
-                            leads to the success of the overall product
+                            Full Stack Web Developer Dedicated to Building High-Quality Websites and Applications that Drive Business Growth and Success
                         </p>
                     </div>
                     <div class="home-hero_cta">
-                        <a href="projects" class="btn btn--bg">Projects</a>
+                        <a href="#projects" class="btn btn--bg">Projects</a>
                     </div>
                 </div>
-                <div class="homme-hero_socials">
+                <div class="home-hero_socials">
                     <div class="home-hero_social">
-                        <a href="#" class="home-hero_social-icon-link">
-                            <img src="" alt="icon" class="home-hero_social-icon" />
+                        <a target="_blank" href="https://www.linkedin.com/in/sohil-fullstack/" class="home-hero_social-icon-link">
+                            <img src="https://www.rammaheshwari.com/assets/svg/linkedin-dark.svg" alt="icon" class="home-hero_social-icon" />
                         </a>
                     </div>
                     <div class="home-hero_social">
-                        <a href="#" class="home-hero_social-icon-link">
-                            <img src="" alt="icon" class="home-hero_social-icon" />
-                        </a>
-                    </div>
-
-                    <div class="home-hero_social">
-                        <a href="#" class="home-hero_social-icon-link">
-                            <img src="" alt="icon" class="home-hero_social-icon" />
+                        <a target="_blank" href="https://x.com/SOHILSDE" class="home-hero_social-icon-link">
+                            <img src="https://www.rammaheshwari.com/assets/svg/twitter-dark.svg" alt="icon" class="home-hero_social-icon" />
                         </a>
                     </div>
 
                     <div class="home-hero_social">
-                        <a href="#" class="home-hero_social-icon-link">
-                            <img src="" alt="icon" class="home-hero_social-icon" />
+                        <a target="_blank" href="https://github.com/sohilweb20" class="home-hero_social-icon-link">
+                            <img src="https://www.rammaheshwari.com/assets/svg/github-dark.svg" alt="icon" class="home-hero_social-icon" />
                         </a>
                     </div>
                     <div class="home-hero_social">
-                        <a href="#" class="home-hero_social-icon-link">
-                            <img src="" alt="icon" class="home-hero_social-icon" />
+                        <a target="_blank" href="https://dev.to/sohilkhan_fullstack" class="home-hero_social-icon-link">
+                            <img src="https://www.rammaheshwari.com/assets/svg/book-dark.svg" alt="icon" class="home-hero_social-icon" />
                         </a>
                     </div>
                 </div>
@@ -61,9 +53,7 @@ const HomePage = () => {
                     <h2 class="heading-sec_mb-med">
                         <span class="heading-sec__main">About Me</span>
                         <span class="heading-sec_sub">
-                            Here you will find more information about me, what i do,
-                            and my curreny skills mostly in terms of programming
-                            and technology
+                            Here, you will find detailed information about me, my work, and my current skills, particularly in programming and technology.
                         </span>
                     </h2>
                     <div class="about__content">
@@ -71,20 +61,16 @@ const HomePage = () => {
                             <h3 class="about__content-title">Get to know me!</h3>
                             <div class="about__content-details">
                                 <p class="about__content-details-para">
-                                    I'm a <strong>Frontend Web Developer</strong> building the Front-end of Websites and Web Applications that leads
-                                    to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
+                                    I am a <strong>Frontend Web Developer</strong> specializing in creating the front-end of websites and web applications that contribute to the overall success of the product. You can explore some of my projects in the <strong>Projects</strong> section.
                                 </p>
                                 <p class="about__content-details-para">
-                                    I also like sharing content related to the stuff that I have learned over the years in <strong>Web Development</strong>
-                                    so it can help other people of the Dev community. Feel free to Connect or Follow me on my linkedin where I post useful content
-                                    related to Web Development and programming
+                                    I enjoy sharing content related to my <strong>web development</strong> knowledge and experience to support the developer community. Feel free to connect or follow me on <a style={{ color: "#7843E9", textDecoration: 'underline', fontWeight: "bold" }} target="_blank" href='https://www.linkedin.com/in/sohil-fullstack/?original_referer='>Linkedin</a> , where I regularly post valuable content about web development and programming.
                                 </p>
                                 <p class="about__content-details-para">
-                                    I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity
-                                    that matches my skills and experience then don't hesitate to <strong>contact</strong> me.
+                                    I am open to <strong>job</strong> opportunities where I can contribute, learn, and grow. If you have a fitting opportunity that aligns with my skills and experience, please don't hesitate to <strong>reach</strong> out.
                                 </p>
                             </div>
-                            <a href="contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+                            <a href="#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
                         </div>
                         <div class="about__content-skills">
                             <h3 class="about__content-title">My Skills</h3>
@@ -115,8 +101,7 @@ const HomePage = () => {
                     <h2 class="heading-sec_mb-bg">
                         <span class="heading-sec__main">Projects</span>
                         <span class="heading-sec_sub">
-                            Here you will find some of the personal and clients projects
-                            that I created with each project containing its own case study
+                            Here, you will find a selection of personal and client projects I've developed, each accompanied by its own case study.
                         </span>
                     </h2>
                     <div class="projects_content">
@@ -198,7 +183,9 @@ const HomePage = () => {
                         </span>
                     </h2>
                     <div class="contact__form-container">
-                        <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+                        <form
+                            action="https://getform.io/f/nadopqyb"
+                            method="POST" class='contact__form'><input type='hidden' name='form-name' value='form 1' />
                             <div class="contact__form-field">
                                 <label class="contact__form-label" for="name">Name</label>
                                 <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
