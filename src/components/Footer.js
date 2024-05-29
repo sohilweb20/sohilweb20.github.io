@@ -17,9 +17,9 @@ const Footer = () => {
               <a target="_blank" rel="noreferrer" href="https://github.com/sohilweb20">
                 <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="RammCodes Github Profile" />
               </a>
-              {/* <a target="_blank" rel="noreferrer" href="https://twitter.com/rammcodes">
+              <a target="_blank" rel="noreferrer" href="https://x.com/SOHILSDE">
                 <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/ef67339f7016cb09ba66366c1dc9145ac69f2a21/feca1/assets/png/twitter-ico.png" alt="RammCodes Twitter Profile" />
-              </a> */}
+              </a>
               <a target="_blank" rel="noreferrer" href="https://dev.to/sohilkhan_fullstack">
                 <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/c7b1e51b8c75a239d68af3d42866666580f390ec/dcc7c/assets/png/blog-ico.png" alt="RammCodes DEV.to Blog Profile" />
               </a>

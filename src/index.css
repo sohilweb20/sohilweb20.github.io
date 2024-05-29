@@ -732,3 +732,29 @@ li {
     padding: 3.5rem 0;
   }
 }
+
+
+.home-hero_socials {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: .5rem;
+}
+
+.home-hero_social {
+  width: 5rem;
+}
+
+.home-hero_social-icon-link {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  transition: background .3s;
+  border-radius: 5px;
+}
+
+.home-hero_social-icon-link:hover {
+  background-color: #7843E9
+}
