@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f62febd6.css",
+    "main.js": "/static/js/main.f125a1cd.js",
+    "static/js/453.6850ef97.chunk.js": "/static/js/453.6850ef97.chunk.js",
+    "static/media/Technofocus.png": "/static/media/Technofocus.3c2d89a544a0fc825339.png",
+    "static/media/Aunest.png": "/static/media/Aunest.20b561bfbe882e1a82b8.png",
+    "static/media/Desklib.png": "/static/media/Desklib.38132d00e89a50e48073.png",
+    "static/media/Neokred.png": "/static/media/Neokred.6ca5220bf69b83878120.png",
+    "static/media/OzAssignment.png": "/static/media/OzAssignment.272cd2ba24ad96d15940.png",
+    "static/media/logoImage.png": "/static/media/logoImage.dd9bc04c6297c7a02c61.png",
+    "static/media/common-bg.svg": "/static/media/common-bg.9878fdbb0d963009b072.svg",
+    "index.html": "/index.html",
+    "main.f62febd6.css.map": "/static/css/main.f62febd6.css.map",
+    "main.f125a1cd.js.map": "/static/js/main.f125a1cd.js.map",
+    "453.6850ef97.chunk.js.map": "/static/js/453.6850ef97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f62febd6.css",
+    "static/js/main.f125a1cd.js"
+  ]
+}
