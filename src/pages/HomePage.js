@@ -20,6 +20,7 @@ const HomePage = () => {
                     <div class="home-hero_cta">
                         <a href="#projects" class="btn btn--bg">Projects</a>
                     </div>
+
                 </div>
                 <div class="home-hero_socials">
                     <div class="home-hero_social">
