@@ -1,6 +1,7 @@
 import React from 'react'
-import desklib from "../assets/Desklib.png"
-import ozassignment from "../assets/OzAssignment.png"
+import AdminPanel from "../assets/AdminPanel.png"
+import locusassignment from "../assets/LocusAssignments.png"
+import Xacco from "../assets/Xacco.png"
 import technofocus from "../assets/Technofocus.png"
 import neokred from "../assets/Neokred.png"
 import Aunest from "../assets/Aunest.png"
@@ -14,7 +15,7 @@ const HomePage = () => {
                     <h1 class="heading-primary">HEY, I'M SOHIL KHAN</h1>
                     <div class="home-hero_info">
                         <p class="text-primary">
-                            Full Stack Web Developer Dedicated to Building High-Quality Websites and Applications that Drive Business Growth and Success
+                            Frontend Developer focused on creating clean, responsive, and engaging user interfaces that help businesses grow.
                         </p>
                     </div>
                     <div class="home-hero_cta">
@@ -76,21 +77,49 @@ const HomePage = () => {
                         <div class="about__content-skills">
                             <h3 class="about__content-title">My Skills</h3>
                             <div class="skills">
+                                {/* <!-- Core Frontend Skills --> */}
                                 <div class="skills_skill">JavaScript</div>
+                                {/* <div class="skills_skill">TypeScript</div> */}
                                 <div class="skills_skill">React.Js</div>
                                 <div class="skills_skill">Next.Js</div>
                                 <div class="skills_skill">React Native</div>
                                 <div class="skills_skill">HTML</div>
                                 <div class="skills_skill">CSS</div>
-                                <div class="skills_skill">Tailwind css</div>
-                                <div class="skills_skill">Ant design</div>
-                                <div class="skills_skill">Node.Js</div>
-                                <div class="skills_skill">Express.Js</div>
-                                <div class="skills_skill">Postgres SQL</div>
-                                <div class="skills_skill">Mongo DB</div>
+                                <div class="skills_skill">Tailwind CSS</div>
+                                <div class="skills_skill">Ant Design</div>
+
+                                {/* <!-- State Management --> */}
                                 <div class="skills_skill">Redux Toolkit</div>
-                                <div class="skills_skill">Mobile Development</div>
+
+                                {/* <!-- Authentication --> */}
+                                <div class="skills_skill">NextAuth.js</div>
+                                <div class="skills_skill">Social Login (Google, GitHub, etc.)</div>
+
+                                {/* <!-- Payment Integration --> */}
+                                <div class="skills_skill">Payment Integration</div>
+
+                                {/* <!-- Tools & Platforms --> */}
                                 <div class="skills_skill">Github</div>
+                                <div class="skills_skill">Vercel</div>
+                                <div class="skills_skill">Netlify</div>
+
+                                {/* <!-- Testing & Debugging --> */}
+                                <div class="skills_skill">Jest</div>
+                                <div class="skills_skill">React Testing Library</div>
+                                <div class="skills_skill">Chrome DevTools</div>
+
+                                {/* <!-- Code Optimization --> */}
+                                <div class="skills_skill">Code Optimization</div>
+                                <div class="skills_skill">Performance Optimization</div>
+                                <div class="skills_skill">Lazy Loading</div>
+                                <div class="skills_skill">Code Splitting</div>
+                                <div class="skills_skill">Efficient State Management</div>
+                                <div class="skills_skill">Memory Management</div>
+
+                                {/* <!-- Additional Skills --> */}
+                                <div class="skills_skill">REST API Integration</div>
+                                <div class="skills_skill">Mobile Development</div>
+                                <div class="skills_skill">Problem Solving</div>
 
                             </div>
                         </div>
@@ -108,28 +137,41 @@ const HomePage = () => {
                     <div class="projects_content">
                         <div class="projects_row">
                             <div class="projects_row-img-cont">
-                                <img src={desklib} alt="Desklib Screenshot"
+                                <img src={AdminPanel} alt="Desklib Screenshot"
                                     class="projects_row-img" />
                             </div>
                             <div class="projects_row-content">
-                                <h3 class="projects_row-content-title">Desklib</h3>
+                                <h3 class="projects_row-content-title">In House - Dashboard</h3>
                                 <p class="projects_row-content-desc">
-                                    Desklib is an online learning platform offering course-specific study materials. Students can access solutions to assignments, essays, dissertations, case studies, and more, contributed by students and educational partners, to enhance their academic performance.
+                                    Currently working on developing a comprehensive dashboard that streamlines company operations, from writers to managers and center Heads. The dashboard tracks order details through various phases, from task assignment to solution submission. I’ve worked on authentication, Redux state management, and optimizing user experience with a mobile-friendly design and intuitive application layout.
                                 </p>
-                                <a href="https://desklib.com/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                                {/* <a href="https://desklib.com/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a> */}
                             </div>
                         </div>
                         <div class="projects_row">
                             <div class="projects_row-img-cont">
-                                <img src={ozassignment} alt="Software Screenshot"
+                                <img src={locusassignment} alt="Software Screenshot"
                                     class="projects_row-img" loading="lazy" />
                             </div>
                             <div class="projects_row-content">
-                                <h3 class="projects_row-content-title">Oz Assignment</h3>
+                                <h3 class="projects_row-content-title">Locus Assignment</h3>
                                 <p class="projects_row-content-desc">
-                                    Our services focus on providing high-quality academic content, including Admission Essay Services, Business Editing Services, Academic Proofreading Services, Academic Services, and Professional Editing Services.
+                                    I have fully developed Locus Assignments, a platform where users can upload their assignments, which are then managed through a dashboard for efficient tracking and processing. The website is highly ranked in the UK, Canada, and Australia. I’ve also worked on enhancing its SEO scope, ensuring better visibility and user engagement.
                                 </p>
-                                <a href="https://www.ozassignments.com/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                                <a href="https://www.locusassignments.com/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
+                            </div>
+                        </div>
+                        <div class="projects_row">
+                            <div class="projects_row-img-cont">
+                                <img src={Xacco} alt="Software Screenshot"
+                                    class="projects_row-img" loading="lazy" />
+                            </div>
+                            <div class="projects_row-content">
+                                <h3 class="projects_row-content-title">Xacco</h3>
+                                <p class="projects_row-content-desc">
+                                    Contributed to the initial development of the XACCO project by setting up the folder structure, main layout, and core components, laying the foundation for a fully functional and scalable website.
+                                </p>
+                                <a href="https://xacco.co/" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case Study</a>
                             </div>
                         </div>
                         <div class="projects_row">
